@@ -6,3 +6,11 @@ document.addEventListener('mousemove', e => {
         `
     })
 })
+
+const btnStart = document.querySelector(".button-start");
+const raining = document.querySelector(".rain");
+
+btnStart.onclick = function () {
+    raining.classList.remove('none')
+}
+
